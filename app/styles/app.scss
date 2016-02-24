@@ -1,0 +1,81 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  float:left;
+  margin-left: 10px;
+}
+
+ul{
+  list-style: none;
+}
+.menu-item-1,.menu-item-2,.menu-item-3, .menu-item-4{
+padding: 10px;
+}
+#menu-item-open{
+  height: 200px;;
+}
+
+.accordion{
+  margin:0 auto;
+  width:60%;
+  text-align: center;
+}
+.content{
+  margin:0 auto;
+  width:450px;
+}
+.menu-item-1,.menu-item-2,.menu-item-3, .menu-item-4{
+  font-family: helvetica;
+  font-weight:bold;
+  color:white;
+  background: linear-gradient(0deg,rgb(40,40,40),rgb(100,100,100));
+    span{
+      display: inline-block;
+      margin-right: 20px;
+    }
+}
+.menu-1, .menu-3{
+  display:none;
+  padding:0;
+  margin-bottom:0px;
+  li{
+    background: rgba(0,0,0,.1);
+    height:40px;
+    padding-top: 10px;
+    font-weight: bold;
+    vertical-align: center;
+  }
+}
+li span{
+  font-weight: 200;
+  font-size: 12px;
+  float:left;
+  margin-left: 20px;
+}
+.tab{
+float:left;
+font-weight: bold;
+font-size: 14px;
+color: rgba(0,0,0,.5);
+line-height:16px;
+margin-top: 1px;
+}
+.hover-color{
+  background: linear-gradient(0deg,#299719,green);
+}
+.hover-color-perm{
+  background: linear-gradient(0deg,#299719,green);
+}
